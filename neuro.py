@@ -2,14 +2,11 @@
 
 from tkinter import *
 
-
-def configurar_janela():
+cor = "#E9EAEC" #azul acinzentado 
     
-    quiz = Tk()
-    quiz.title("pulse")  
-    quiz.geometry("800x600")
-
-
+    futebol = Tk()
+    futebol.title("pulse")  
+    futebol.geometry("800x600")
 
     # CARREGAR A IMAGEM
-    imagem = PhotoImage(file="pgn_inicial.png")
+    imagem = PhotoImage(file="pgn_inicial.png")
